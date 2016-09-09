@@ -96,6 +96,7 @@ $(document).ready(function() {
 		'marginRight':$margin+"px",
 		'height':$height
 		});
+	$('.over').css('height',$height);
 	$('.carousel_item:last-child').css('marginRight',0);
 	if ($(window).width()<'576') {
 			$('.carousel_item').width($('.carousel_main').width());

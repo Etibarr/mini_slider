@@ -46,7 +46,8 @@
     position: relative;
     transition: all 1s;
     overflow: hidden;
-    min-height: 144px; }
+    min-height: 144px;
+    overflow: hidden; }
     #miniSlider .carousel_posts .carousel_main .over {
       overflow: hidden;
       position: relative; }
